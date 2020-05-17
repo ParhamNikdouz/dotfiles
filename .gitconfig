@@ -1,0 +1,17 @@
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[user]
+    name = Parham Nikdouz
+    email = pnikdouz@gmail.com
+
+[github]
+    user = ParhamNikdouz
+[pretty]
+    fixes = Fixes: %h (\"%s\")
