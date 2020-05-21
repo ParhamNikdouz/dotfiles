@@ -4,8 +4,11 @@ set number " show line number
 set noswapfile
 set mouse=a " enable mouse in vim
 set encoding=utf-8 " default encoding method
-syntax on " enable syntax highlight
-colorscheme onedark "ondark theme
+packadd! dracula
+syntax enable
+colorscheme dracula
+"syntax on " enable syntax highlight
+"colorscheme onedark "ondark theme
 filetype off " Helps force plug-ins to load correctly when it is turned back on below.
 set hlsearch " Highlight matching search patterns
 set incsearch " Enable incremental search
