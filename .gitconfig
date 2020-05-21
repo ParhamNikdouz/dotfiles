@@ -10,6 +10,7 @@
 [user]
     name = Parham Nikdouz
     email = pnikdouz@gmail.com
+    signingkey = 99366B283FCA1517
 
 [github]
     user = ParhamNikdouz
