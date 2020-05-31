@@ -13,6 +13,6 @@
     signingkey = 99366B283FCA1517
 
 [github]
-    user = ParhamNikdouz
+    user = prhmnik
 [pretty]
     fixes = Fixes: %h (\"%s\")
